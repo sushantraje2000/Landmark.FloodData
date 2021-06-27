@@ -10,7 +10,7 @@ namespace Landmark.FloodData.Models
 {
 	public class Flood
 	{
-		public int Id { get; set; }
+		public string Id { get; set; }
 
 		[JsonConverter(typeof(StringEnumConverter))]
 		public SeverityLevel Severity { get; set; }
